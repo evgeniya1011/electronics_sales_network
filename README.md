@@ -41,5 +41,6 @@ pip install -r requirements.txt
 - Настройка базы данных:
 Создайте базу данных для проекта через psql или pgAdmin.
 
+python manage.py csu - создание пользователя
 python manage.py migrate - применение миграций
 python manage.py runserver - запуск приложения
